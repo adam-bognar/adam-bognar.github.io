@@ -53,7 +53,7 @@ export function LeftSide() {
             <div className="flex flex-col gap-3">
                 <div className={"flex flex-row items-center gap-6"}>
                     <img 
-                        src="/src/icons/face3.jpg" 
+                        src="/icons/face3.jpg" 
                         alt="Ádám Bognár" 
                         className={"w-30 h-30 rounded-full object-cover"} 
                     />
@@ -123,7 +123,7 @@ export function LeftSide() {
                     className="text-white/60 hover:text-white/90 transition-colors"
                 >
                     <img 
-                        src="/src/icons/github.svg" 
+                        src="/icons/github.svg" 
                         alt="GitHub" 
                         className="w-5 h-5 filter invert brightness-100"
                     />
@@ -135,7 +135,7 @@ export function LeftSide() {
                     className="text-white/60 hover:text-white/90 transition-colors"
                 >
                     <img 
-                        src="/src/icons/linkedin.svg" 
+                        src="/icons/linkedin.svg" 
                         alt="LinkedIn" 
                         className="w-5 h-5 filter invert brightness-100" 
                     />
@@ -147,7 +147,7 @@ export function LeftSide() {
                     className="text-white/60 hover:text-white/90 transition-colors"
                 >
                     <img 
-                        src="/src/icons/x.svg" 
+                        src="/icons/x.svg" 
                         alt="X (Twitter)" 
                         className="w-5 h-5 filter invert brightness-100" 
                     />
@@ -159,7 +159,7 @@ export function LeftSide() {
                     className="text-white/60 hover:text-white/90 transition-colors"
                 >
                     <img 
-                        src="/src/icons/instagram.svg" 
+                        src="/icons/instagram.svg" 
                         alt="Instagram" 
                         className="w-5 h-5 filter invert brightness-100" 
                     />
