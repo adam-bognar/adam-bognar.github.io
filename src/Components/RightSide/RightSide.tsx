@@ -2,22 +2,23 @@ import { ExternalLink } from "lucide-react";
 
 export function RightSide() {
     return (
-        <div  className="flex flex-col w-1/2 gap-4 pt-24 pr-30 text-white/60" >
-<div id="about" className={"flex flex-col gap-3"}>
-    
-<p>I’m a university student based in Hungary, passionate about AI and IT security. Whenever I have free time, I spend it learning,
-                building, or improving myself—whether through real-world experiences or late-night coding sessions.</p>
+        <div className="flex flex-col w-full md:w-1/2 gap-4 pt-12 md:pt-24 md:pr-30 px-6 text-white/60">
 
-            <p>I have experience developing <span className={"font-medium text-white/80"}>Android applications</span>, with the use of Firebase, and I enjoy working
-                across the <span className={"font-medium text-white/80"}>full stack</span>. My go-to technologies include <span className={"font-medium text-white/80"}>React,
-                    Preact, TypeScript, C#, ASP.NET Core Web API, Entity Framework, and MSSQL</span>. I’ve deployed projects to both AWS and Azure, and I’m always eager to explore new tools and platforms that push my skills further.</p>
+            <div id="about" className={"flex flex-col gap-3"}>
 
-            <p>Lately, I’ve been especially interested in how machine learning and cybersecurity intersect — two fields that continue to shape the
-                future of technology in exciting (and sometimes scary) ways.</p>
+                <p>I’m a university student based in Hungary, passionate about AI and IT security. Whenever I have free time, I spend it learning,
+                    building, or improving myself—whether through real-world experiences or late-night coding sessions.</p>
 
-            <p>When I’m not coding, I’m probably deep-diving into a new concept, working on side projects with friends, or planning my next big step in tech.</p>
+                <p>I have experience developing <span className={"font-medium text-white/80"}>Android applications</span>, with the use of Firebase, and I enjoy working
+                    across the <span className={"font-medium text-white/80"}>full stack</span>. My go-to technologies include <span className={"font-medium text-white/80"}>React,
+                        Preact, TypeScript, C#, ASP.NET Core Web API, Entity Framework, and MSSQL</span>. I’ve deployed projects to both AWS and Azure, and I’m always eager to explore new tools and platforms that push my skills further.</p>
 
-</div>
+                <p>Lately, I’ve been especially interested in how machine learning and cybersecurity intersect — two fields that continue to shape the
+                    future of technology in exciting (and sometimes scary) ways.</p>
+
+                <p>When I’m not coding, I’m probably deep-diving into a new concept, working on side projects with friends, or planning my next big step in tech.</p>
+
+            </div>
 
             <div id={"projects"} class={"flex flex-col my-20 gap-10 "}>
                 <a href={"https://github.com/adam-bognar/fitness.git"} target="_blank" className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>

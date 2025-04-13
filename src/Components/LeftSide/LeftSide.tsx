@@ -49,7 +49,8 @@ export function LeftSide() {
     }, []);
 
     return (
-        <div className={"flex flex-col w-1/2 sticky top-0  max-h-screen p-24 justify-between"}>
+        <div className="flex flex-col w-full md:w-1/2 sticky md:top-0 max-h-screen md:p-24 p-6 justify-between">
+
             <div className="flex flex-col gap-3">
                 <div className={"flex flex-row items-center gap-6"}>
                     <img 
@@ -66,7 +67,7 @@ export function LeftSide() {
                     and modern backend technologies. I create software that's both functional and delightful to use.</h3>
             </div>
 
-            <nav className={"flex flex-col text-white/60"}>
+            <nav className="hidden md:flex flex-col text-white/60">
                 <ul>
                     <li>
                         <a
@@ -115,7 +116,8 @@ export function LeftSide() {
 
             
 
-            <div className="flex flex-row gap-10">
+            <div className="flex flex-row gap-10 md:static fixed bottom-4 left-1/2 transform md:transform-none -translate-x-1/2 md:translate-x-0 justify-center md:justify-start w-full md:w-auto">
+
                 <a
                     href="https://github.com/adam-bognar"
                     target="_blank"

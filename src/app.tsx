@@ -20,7 +20,8 @@ export function App() {
     <main className="w-full min-h-screen flex bg-[#0a192f] relative">
       <div className="spotlight" />
 
-      <div className={"flex w-full"}>
+      <div className="flex flex-col md:flex-row w-full">
+
         <LeftSide />
 
         <RightSide />
