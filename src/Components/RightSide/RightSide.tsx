@@ -102,7 +102,7 @@ export function RightSide() {
                         </div>
                     </div>
                 </a>
-                <a href={"https://github.com/adam-bognar/projecthub.git"} target={"_blank"} className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>
+                <a href={"https://github.com/adam-bognar/pytorch-cat-classification.git"} target={"_blank"} className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>
 
                     <div className={"flex flex-row gap-2 items-center"}>
                         <h1 class={"text-white/80 font-bold"}>Cat Breed Classifier (PyTorch + Transfer Learning)</h1>
