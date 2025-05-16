@@ -102,6 +102,32 @@ export function RightSide() {
                         </div>
                     </div>
                 </a>
+                <a href={"https://github.com/adam-bognar/projecthub.git"} target={"_blank"} className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>
+
+                    <div className={"flex flex-row gap-2 items-center"}>
+                        <h1 class={"text-white/80 font-bold"}>Cat Breed Classifier (PyTorch + Transfer Learning)</h1>
+                        <ExternalLink size={16} />
+                    </div>
+                    <p className="text-sm text-white/70 mt-1">
+                        This project classifies cat images into one of three breeds: Maine Coon, Manx, or Ragdoll using a fine-tuned ResNet18 model. Custom CNN and Transfer Learning comparison 
+                        Transfer learning with ResNet18 (pretrained on ImageNet)
+                        <br />
+                    </p>
+                    <div className={"flex flex-wrap gap-2"}>  
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            PyTorch
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Transfer Learning
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            CNN
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Torchvision
+                        </div>
+                    </div>
+                </a>
             </div>
 
 
