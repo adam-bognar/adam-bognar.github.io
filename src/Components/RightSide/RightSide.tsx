@@ -128,6 +128,38 @@ export function RightSide() {
                         </div>
                     </div>
                 </a>
+                <a href={"https://github.com/adam-bognar/pytorch.git"} target={"_blank"} className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>
+
+                    <div className={"flex flex-row gap-2 items-center"}>
+                        <h1 class={"text-white/80 font-bold"}>Pytorch practice projects</h1>
+                        <ExternalLink size={16} />
+                    </div>
+                    <p className="text-sm text-white/70 mt-1">
+                        A collection of small projects to practice PyTorch. These include a simple CNN for MNIST digit classification, and a few other
+                        experiments with different architectures and datasets. Each project is designed to help solidify my understanding of PyTorch and deep learning concepts.
+                        <br />
+                    </p>
+                    <div className={"flex flex-wrap gap-2"}>  
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            PyTorch
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Transfer Learning
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            CNN
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Torchvision
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Linear regression
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Multi classification
+                        </div>
+                    </div>
+                </a>
             </div>
 
 
