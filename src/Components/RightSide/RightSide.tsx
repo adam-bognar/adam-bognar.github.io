@@ -33,6 +33,32 @@ export function RightSide() {
                         Kotlin
                     </div>
                 </a>
+                <a href={"https://github.com/adam-bognar/projecthub.git"} target={"_blank"} className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>
+
+                    <div className={"flex flex-row gap-2 items-center"}>
+                        <h1 class={"text-white/80 font-bold"}>ProjectHub</h1>
+                        <ExternalLink size={16} />
+                    </div>
+                    <p className="text-sm text-white/70 mt-1">
+                        This is the backend API for ProjectHub, a web application where users can share project ideas and find partners to collaborate with.
+                         The backend is built using ASP.NET Core Web API and uses Microsoft SQL Server for data persistence.
+                        <br />
+                    </p>
+                    <div className={"flex flex-wrap gap-2"}>  
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            C#
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            ASP .Net Core
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Entity Framework
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            MSSQL
+                        </div>
+                    </div>
+                </a>
                 <a href={"https://adam-bognar.github.io/ecommerce"} target={"_blank"} className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>
 
                     <div className={"flex flex-row gap-2 items-center"}>
