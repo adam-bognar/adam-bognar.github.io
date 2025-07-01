@@ -7,14 +7,14 @@ export function RightSide() {
             <div id="about" className={"flex flex-col gap-3"}>
 
                 <p>I’m a university student based in Hungary, passionate about AI and IT security. Whenever I have free time, I spend it learning,
-                    building, or improving myself—whether through real-world experiences or late-night coding sessions.</p>
+                    building, or improving myself whether through real-world experiences or late-night coding sessions.</p>
 
                 <p>I have experience developing <span className={"font-medium text-white/80"}>Android applications</span>, with the use of Firebase, and I enjoy working
                     across the <span className={"font-medium text-white/80"}>full stack</span>. My go-to technologies include <span className={"font-medium text-white/80"}>React,
                         Preact, TypeScript, C#, ASP.NET Core Web API, Entity Framework, and MSSQL</span>. I’ve deployed projects to both AWS and Azure, and I’m always eager to explore new tools and platforms that push my skills further.</p>
 
-                <p>Lately, I’ve been especially interested in how machine learning and cybersecurity intersect — two fields that continue to shape the
-                    future of technology in exciting (and sometimes scary) ways.</p>
+                <p>Lately, I’ve been especially interested in how machine learning and cybersecurity intersect two fields that continue to shape the
+                    future of technology in exciting ways.</p>
 
                 <p>When I’m not coding, I’m probably deep-diving into a new concept, working on side projects with friends, or planning my next big step in tech.</p>
 
@@ -33,7 +33,7 @@ export function RightSide() {
                         Kotlin
                     </div>
                 </a>
-                <a href={"https://github.com/adam-bognar/projecthub.git"} target={"_blank"} className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>
+                <a href={"https://github.com/Pacos-Kft/ProjectHub.git"} target={"_blank"} className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>
 
                     <div className={"flex flex-row gap-2 items-center"}>
                         <h1 class={"text-white/80 font-bold"}>ProjectHub</h1>
@@ -42,6 +42,34 @@ export function RightSide() {
                     <p className="text-sm text-white/70 mt-1">
                         This is the backend API for ProjectHub, a web application where users can share project ideas and find partners to collaborate with.
                          The backend is built using ASP.NET Core Web API and uses Microsoft SQL Server for data persistence.
+                        <br />
+                    </p>
+                    <div className={"flex flex-wrap gap-2"}>  
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            C#
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            ASP .Net Core
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Entity Framework
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            MSSQL
+                        </div>
+                    </div>
+                </a>
+                <a href={"https://github.com/Pacos-Kft/GamingWithMe.git"} target={"_blank"} className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>
+
+                    <div className={"flex flex-row gap-2 items-center"}>
+                        <h1 class={"text-white/80 font-bold"}>GamingWithMe</h1>
+                        <ExternalLink size={16} />
+                    </div>
+                    <p className="text-sm text-white/70 mt-1">
+                        GamingWithMe is a platform currently under development that enables players to hire professional coaches to support their improvement. 
+                        The system offers appointment booking, various profile categories, and personalized services. The backend follows a clean architecture, 
+                        with separate layers handling business logic, data access, and APIs. A key part of the project is payment integration, 
+                        secure authentication, and building scalable, maintainable code using various design patterns.
                         <br />
                     </p>
                     <div className={"flex flex-wrap gap-2"}>  
@@ -99,6 +127,44 @@ export function RightSide() {
                         </div>
                         <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
                             Vite
+                        </div>
+                    </div>
+                </a>
+                <a href={"https://github.com/adam-bognar/mirrow.git"} target={"_blank"} className={"flex flex-col gap-2 p-5 hover:cursor-pointer hover:bg-[#162346]/20 hover:shadow-2xl rounded-md transition-all duration-300 ease-in-out"}>
+
+                    <div className={"flex flex-row gap-2 items-center"}>
+                        <h1 class={"text-white/80 font-bold"}>Mirrow</h1>
+                        <ExternalLink size={16} />
+                    </div>
+                    <p className="text-sm text-white/70 mt-1">
+                        Mirrow is a web application that allows users to book appointments with businesses.
+                         It is built using a clean architecture approach, with a Preact frontend and an ASP.NET Core Web API 
+                         backend written in C#. The application uses Microsoft SQL Server for data storage and focuses on maintainability, 
+                         scalability, and clear separation of concerns throughout the codebase.
+                        <br />
+                        <span className={"text-xs text-white/20"}>(It might take longer to load I am hosting from free plan)</span>
+                    </p>
+                    <div className={"flex flex-wrap gap-2"}>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Preact
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            TypeScript
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Tailwind CSS
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            C#
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            ASP .Net Core
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            Entity Framework
+                        </div>
+                        <div className={"bg-[#112a39] text-[#51cfc8] rounded-2xl font-semibold py-2 px-5 w-fit text-xs"}>
+                            MSSQL
                         </div>
                     </div>
                 </a>
